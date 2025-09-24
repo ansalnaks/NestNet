@@ -1,0 +1,224 @@
+.footerContact{
+    background-color: #27ae60;
+    padding: 40px 0;
+    color: #fff;
+    
+   
+  }
+  .footerContact h1{
+    font-size: 40px;
+  }
+  footer{
+    background-color: #1d2636;
+    padding: 50px 0;
+    color: #fff;
+  }
+  footer.container{
+    display: grid;
+    grid-template-columns: 6fr 2fr 2fr 1fr;
+    grid-gap: 20px;
+    padding-top: 1%; 
+
+
+    /* display: flex;
+    justify-content: space-between; /* Distributes sections evenly */
+    /* flex-wrap: wrap; /* Makes it responsive */
+    /* gap: 40px */ 
+    
+  }
+  footer img{
+    width: 150px;
+  }
+  footer h2{
+    font-weight: 500;
+  }
+  footer p{
+    color: grey;
+    margin: 20px 0;
+  
+  }
+  footer input{
+    background-color: #fff;
+    padding: 17px;
+    width: 100%;
+    border-radius: 5px;
+  }
+  footer h3{
+    font-weight: 500;
+    margin-bottom: 30px;
+    
+  }
+  footer ul{
+    display: block;
+   
+  }
+  footer ul li{
+    display: block;
+    color: grey;
+    margin-bottom: 20px;
+    /* margin-bottom: 8px;  */
+  }
+  .legal{
+    text-align: center;
+    padding: 20px;
+    background-color: #1d2636;
+    color: rgba(255,255,255,0.5);
+    border-top: 1px solid rgba(255,255,255,0.5) ;
+  }
+  .box{
+    display: flex;
+    flex: 1;
+    min-width: 200px;
+  }
+  .logo img{
+    width: 70px;
+  }
+  .follow a{
+    color: gray;
+   margin-left: 1%;
+   font-size: 24px;
+   transform: color 0.3s ease-in-out;;
+  }
+  .follow a:hover{
+    color: #0073b1;
+    
+  }
+  .follow h3{
+    margin-top: 4%;
+    margin-left: 2%;
+    /* text-align: center; */
+    font-size: 24px;
+  }
+  .follow{
+    margin-left:44%;
+  }
+
+ .featuredbg{
+  height: auto;
+ }
+
+  .containers h2,h5 {
+    font-size: larger;
+    /* animation: zoomIn 1s ease-in-out; */
+    animation: slideIn 1.2s ease-in-out;
+    transition: transform 0.3s ease-in-out
+  }
+  
+  .containers h2:hover, 
+.containers h5:hover {
+    transform: scale(1.1); 
+    color: #007bff; 
+    cursor: pointer;
+}
+
+.agentss ul li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #555;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.agentss ul li:hover {
+    background: #168f42; /* Change this to any suggested color */
+    color: #fff; /* Ensures text remains readable */
+}
+.hoverdiv{
+  transition: transform 0.3s ease-in-out;
+}
+.hoverdiv:hover{
+  transform: scale(1.03);
+
+}
+/* .feature-heading {
+  transform: scale(0.8);
+  opacity: 0;
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+
+/* Add the zoom effect when visible */
+/* .feature-heading.visible {
+  animation: zoomIn 0.6s ease-in-out forwards;
+} */ 
+
+.featbutt button{
+ margin-left: 1%;
+}
+.featbutt button:hover{
+  transform: scale(1.1);
+}
+@keyframes zoomIn {
+  from {
+      transform: scale(0.8);
+      opacity: 0;
+  }
+  to {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+.featuredbg{
+  margin-top: -11%;
+  margin-bottom: 7%;
+}
+ 
+
+.feature-heading {
+  transform: scale(0.8);
+  opacity: 0;
+  transition: transform 0.6s ease-in-out, opacity 0.6s ease-in-out;
+}
+
+
+.feature-heading.visible {
+  animation: zoomIn 1s ease-in-out forwards;
+}
+
+
+.property-card {
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.property-badge {
+  position: absolute;
+  top: 10px;
+  left: -60px; 
+  background-color: #27ae60; 
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  transition: left 0.5s ease-in-out;
+}
+
+.property-card:hover .property-badge {
+  left: 10px; 
+}
+
+
+
+  @keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+  
+  @media  screen and(max-width :768px) {
+    /* .footerContact{
+      
+    } */
+  }

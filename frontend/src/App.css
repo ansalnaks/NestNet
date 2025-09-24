@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: "Poppins,sans-serif";
+  background-color: white;
+
+}
+.container-flex{
+  max-width: 80%;
+  margin: auto;
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+a{
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+}
+ul{
+  list-style-type: none;
+}
+button{
+  border-radius: 5px;
+  padding: 17px 30px;
+  background-color: #27ae60;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+button i{
+  margin-right: 5px;
+}
+header{
+  position: sticky;
+  background-color: #fff;
+  height: 13vh;
+  box-shadow: 0 5px 30px rgb(0 22 84/10%);
+  padding: 15px 0;
+  
+  top: 0;
+  z-index: 999;
+  overflow:visible ;
+ 
+}
+header img{
+  width: 170px;
+}
+header a{
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+}
+header a:hover{
+  color: #27ae60;
+}
+header h4{
+  font-weight: 500;
+  margin-right: 20px;
+}
+header .toggle{
+  display: none;
+}
+/* .aboutsec{
+  /* margin-top: 8%;
+  margin-left: 15%; 
+  background-size: cover;
+  object-fit: fill;
+  height: 545px;
+
+  width: 1500px;
+  /* background-repeat: no-repeat;
+  background-image:url("https://koala.sh/api/image/v2-d0ll6-a9xhn.jpg?width=1216&height=832&dream"); 
+} */
+
+.featuredbg{
+  height: 334px;
+}
+
+
+@media screen and (max-width:768px) {
+  header{
+    padding: 0%;
+  }
+  header img{
+    margin-top:7px;
+  }
+  header .button{
+    display: none;
+  }
+  header .nav .flex{
+    display: none;
+  }
+  header .toggle{
+    display: block;
+    margin-top: 10px;
+  }
+  header .small{
+    position: absolute;
+    top: 14vh;
+    left: 0;
+    width: 100%;
+    background-color: #27ae60;
+    padding: 20px;
+  }
+  header li a{
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+}

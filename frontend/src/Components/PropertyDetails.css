@@ -1,0 +1,65 @@
+/* PropertyDetails.css */
+.property-details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.property-details-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.property-details-header h3 {
+    font-size: 2.3rem;
+    color: rgb(81, 172, 112);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px  #e6e2e2;
+}
+
+.property-details-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.property-image {
+    flex: 1;
+    max-width: 50%;
+}
+
+.property-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.property-info {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.property-info p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+    
+}
+
+.property-info p strong {
+    color: #333;
+}
+
+.loading-message {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 50px;
+}
